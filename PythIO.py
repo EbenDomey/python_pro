@@ -28,3 +28,9 @@ with open("PythIO.txt", mode= 'w') as ft:
 with open("PythIO.txt", mode='r') as ft:
     cont = ft.read()
     print(cont)
+# i wanna try something
+"""with open("IOpy.txt", mode='w+') as fs:
+    fs.write("Fire Godzilla Fire \nMonster Blood on the dancefloor on the luis V carpet")
+    instate = .read()
+    print(instate)"""
+#didn't work out
