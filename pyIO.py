@@ -13,3 +13,18 @@ print(myFiles.read())
 myFiles.seek(0)
 print(myFiles.readlines())
 #this is what i know now but ill be back with more soon
+#back again with more info
+# now currently the file is still running so assuming you want to delete it an error would always pop up
+#so if you wanna avoid that then close it with the close method
+myFiles.close()
+#or... if you wanna avoid this entire situation then u just have to use the with and as function which creates a code block
+with open('pyIo.txt') as myFile:
+    content = myFile.read()
+    print(content)
+#once that block is done executing the file will close automatically
+#accessing remote files
+# python has come up with a way in which you can access remote files by naming the entire directory from its root
+#the syntax of this is that the escape character \ should be used twice so python has no issue 
+with open("C:\\Users\\DomeyBenjamin\\Desktop\\pyIO2.txt") as secFile:
+    info = secFile.read()
+    print(info)
