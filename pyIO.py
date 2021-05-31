@@ -24,7 +24,7 @@ with open('pyIo.txt') as myFile:
 #once that block is done executing the file will close automatically
 #accessing remote files
 # python has come up with a way in which you can access remote files by naming the entire directory from its root
-#the syntax of this is that the escape character \ should be used twice so python has no issue 
+#the syntax of this is that the escape character \ should be used twice so python has no issue
 with open("C:\\Users\\DomeyBenjamin\\Desktop\\pyIO2.txt") as secFile:
     info = secFile.read()
     print(info)
