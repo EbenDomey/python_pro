@@ -28,3 +28,13 @@ divDict3 = divList2[1]
 divList4 = divDict3['tough']
 divList5 = divList4[2]
 print(divList5[0])
+
+list5 = [1,1,2, 2, 33, 4, 4, 11, 22, 3, 3, 2]
+mySet = set(list5)
+print(mySet)
+print(3.0==3)
+print(4.0*0.5==2)
+
+finList = [1,2,[3,4]]
+finDict = [1,2,{'k1':4}]
+print(finList[2][0]>= finDict[2]['k1'])
