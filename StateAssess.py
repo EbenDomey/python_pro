@@ -32,10 +32,12 @@ for s in range(1,101):
     elif s%5==0:
         print("\nbuzz")
 yt = "Create a list of the first letters of every word in this string"
+
 """thirdList = []
 for h in yt.split():
     if h[0] in yt.split():
         thirdList.append(h)
 print(thirdList)"""
+
 thirdList= [x[0] for x in yt.split()]
 print(thirdList)
