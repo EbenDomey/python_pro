@@ -15,7 +15,6 @@
 #seclist= [a for a in range(1,50) if a%3==0 ]
 #print(seclist)
 
-
 #number 4
 """sy='Print every word in this sentence that has an even number of letters'
 mylist=sy.split()
@@ -137,3 +136,4 @@ def max_end3(nums):
         return nums
 
 print(max_end3([11, 5, 9]))
+print("maximum")
