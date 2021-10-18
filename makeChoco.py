@@ -22,15 +22,16 @@ def fix_teen(n):
     if n in [13,14,17,18,19]:
         return 0
     return n
-  
-  
+
+
+
 def no_teen_sum(a, b, c):
     
     tot=fix_teen(a)+fix_teen(b)+fix_teen(c)
     return tot
 print(no_teen_sum(2, 13, 1) )
 print(abs(-1-10))
-"""
+
 def count_code(str):
     count=0
     for i in range(len(str)):
@@ -60,9 +61,11 @@ def xyz_there(str):
         elif q=='xyz':
             return True
     return False
+    """
 
-q=[10, 3, 5, 6]
-print(max(q))
+"""q=[10, 3, 5, 6]
+q.pop(1:)
+print(q)
 
 def centered_average(nums):
     nums.sort()
@@ -91,3 +94,6 @@ def sum13(nums):
     print(nums)
     return total
 print(sum13([1, 2, 2, 1, 13]))
+"""
+
+
