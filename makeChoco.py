@@ -97,3 +97,10 @@ print(sum13([1, 2, 2, 1, 13]))
 """
 
 
+a=2
+b=1
+print(f"{a} and {b}")
+c=a
+a=b
+b=c
+print(f"{a} and {b}")
