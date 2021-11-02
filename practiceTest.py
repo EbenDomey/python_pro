@@ -174,4 +174,8 @@ def print_big(letter):
         print("*    ")
         print("*****")
 
-print_big("e")
+print_big("a")
+print("\n")
+print_big("b")
+print("\n")
+print_big("a")
