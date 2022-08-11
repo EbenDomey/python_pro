@@ -1,3 +1,0 @@
-Hello This is a python file for python manipulation
-This is another line 
-This is the last line
