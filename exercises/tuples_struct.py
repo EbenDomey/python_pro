@@ -40,7 +40,13 @@ print(tuple8)
 tuple9 = (50, 10, 60, 70, 50)
 print(tuple9.count(50))
 
-tuple10 = (45, 45, 45, 45)
+tuple10 = (4, 45, 45, 45)
+a = tuple10[1]
+print(tuple10.count(a) == len(tuple10))
+
+# or.....
+
+"""
 result = ""
 for a in range(len(tuple10)):
     if a + 1 <= len(tuple10) - 1:
@@ -51,4 +57,4 @@ for a in range(len(tuple10)):
     else:
         break
 
-print(result)
+print(result)"""
